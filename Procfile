@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp build/staging:build/staging/* telebot.Main
+worker: java $JAVA_OPTS -cp target/classes:target/dependency/* telebot.Bot
