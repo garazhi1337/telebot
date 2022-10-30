@@ -1,1 +1,1 @@
-worker: sh target/telebot-0.0.1-SNAPSHOT.jar
+worker: java -Dserver.port=$PORT $JAVA_OPTS -jar target/telebot-0.0.1-SNAPSHOT.jar
