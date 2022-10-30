@@ -1,1 +1,1 @@
-worker: java -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 -cp ./target/classes:./target/dependency/* telebot.Bot
+worker: java -Dserver.port=$PORT $JAVA_OPTS -jar target/telebot-0.0.1-SNAPSHOT.jar
